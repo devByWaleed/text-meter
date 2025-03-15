@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" href="TextMeter Logo.png" type="jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>TextMeter - User-Friendly Word Tracker</title>
+</head>
+
+<body>
+
+    <!-- Main Page -->
+    <main class="main">
+
+        <!-- Navbar -->
+        <header class="header">
+            <section class="navbar">
+
+                <h1>TextMeter<svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="arcs">
+                        <polygon points="16 3 21 8 8 21 3 21 3 16 16 3"></polygon>
+                    </svg></h1>
+
+                <nav class="links">
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                </nav>
+
+            </section>
+        </header>
+
+
+        <!-- Text Details -->
+        <section class="text-summary">
+            <span id="char-show">0</span>
+            <span>Characters</span>
+            <span id="word-show">0</span>
+            <span>Words</span>
+        </section>
+
+
+        <!-- Text Edit Area -->
+        <section class="operation-buttons">
+            <div id="toUpper" class="char-btn" onclick="upper_case()">
+                <i class="bi bi-arrow-up-square"></i>
+                ABC
+            </div>
+            <div class="char-btn" onclick="lower_case()">
+                <i class="bi bi-arrow-down-square"></i>
+                abc
+            </div>
+            <div id="toCapitalize" class="char-btn" onclick="capitalize()">
+                <i class="bi bi-arrow-up-right-square"></i>
+                Abc
+            </div>
+            <div class="char-btn" onclick="copy()">
+                <i class="bi bi-clipboard"></i>
+                Copy
+            </div>
+
+        </section>
+
+
+        <!-- text Area For Typing -->
+        <textarea id="myText" placeholder="Start Typing Here...."></textarea>
+
+
+        <!-- About The App -->
+        <section id="about">
+            <h2>About TextMeter App?</h2>
+            <p>Apart from counting words and characters, our online editor offers tools to help you improve your
+                writing. You can change the case of your text. Convert it to <strong>UPPERCASE</strong>,
+                <strong>lowercase</strong>, or <strong>Capitalize</strong> (the first letter of each word) for better
+                readability. Simply place your cursor in the text box above
+                and start typing. You'll see the number of characters and words increase or decrease as you type,
+                delete,
+                and edit them. You can also copy and paste text from another program into the editor above, or use the
+                <strong>Copy Text</strong> feature to easily copy your text for use elsewhere.
+            </p>
+
+            <p>Knowing the word count of a text is often essential. For example, an author might need to meet a minimum
+                or
+                maximum word count for an article, essay, report, story, book, or paper. TextMeter will help ensure your
+                word count reaches a specific requirement or stays within a set limit, all while keeping track of the
+                number
+                of characters.</p>
+        </section>
+
+
+        <!-- footer Start -->
+
+        <footer class="footer">
+            <section class="container">
+                <div class="footer-list">
+                    <h2>Navigation</h2>
+
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="footer-list">
+                    <h2>Follow</h2>
+                    <ul>
+                        <li><a href="https://www.github.com/waleed1857/">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/waleeddev/">Linkedin</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61567654645027">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/devby_waleed/">Instagram</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <p>Copyright (c) 2025 [Waleed Ahmed]</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
