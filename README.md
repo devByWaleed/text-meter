@@ -26,5 +26,5 @@ Returning Total Words and charachters. Also the app has the feature to copy the 
 
 
 **Usage:**
-- Access the TextMeter application through the web browser. https://waleed1857.github.io/text-meter/
+- Access the TextMeter application through the web browser. https://devByWaleed.github.io/text-meter/
 ---
